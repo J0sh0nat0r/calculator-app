@@ -1,0 +1,71 @@
+{
+    "type": "Mul",
+    "lhs": {
+        "type": "Numeric",
+        "value": "5717"
+    },
+    "fenceLhs": false,
+    "rhs": {
+        "type": "Sub",
+        "lhs": {
+            "type": "Mul",
+            "lhs": {
+                "type": "Sqrt",
+                "operand": {
+                    "type": "Sub",
+                    "lhs": {
+                        "type": "Mul",
+                        "lhs": {
+                            "type": "Add",
+                            "lhs": {
+                                "type": "Numeric",
+                                "value": "2256.470"
+                            },
+                            "fenceLhs": false,
+                            "rhs": {
+                                "type": "Pow",
+                                "lhs": {
+                                    "type": "Numeric",
+                                    "value": "7669"
+                                },
+                                "fenceLhs": false,
+                                "rhs": {
+                                    "type": "Numeric",
+                                    "value": "8716.916"
+                                },
+                                "fenceRhs": false
+                            },
+                            "fenceRhs": false
+                        },
+                        "fenceLhs": true,
+                        "rhs": {
+                            "type": "Numeric",
+                            "value": "2664"
+                        },
+                        "fenceRhs": false
+                    },
+                    "fenceLhs": false,
+                    "rhs": {
+                        "type": "Numeric",
+                        "value": "8435.582"
+                    },
+                    "fenceRhs": false
+                },
+                "fenceOperand": true
+            },
+            "fenceLhs": false,
+            "rhs": {
+                "type": "Numeric",
+                "value": "7420"
+            },
+            "fenceRhs": false
+        },
+        "fenceLhs": false,
+        "rhs": {
+            "type": "Numeric",
+            "value": "2548"
+        },
+        "fenceRhs": false
+    },
+    "fenceRhs": true
+}

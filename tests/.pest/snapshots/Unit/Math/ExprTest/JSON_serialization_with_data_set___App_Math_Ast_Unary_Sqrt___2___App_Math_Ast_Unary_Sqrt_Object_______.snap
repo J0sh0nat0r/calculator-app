@@ -1,0 +1,57 @@
+{
+    "type": "Sqrt",
+    "operand": {
+        "type": "Add",
+        "lhs": {
+            "type": "Numeric",
+            "value": "5462"
+        },
+        "fenceLhs": false,
+        "rhs": {
+            "type": "Sqrt",
+            "operand": {
+                "type": "Mul",
+                "lhs": {
+                    "type": "Numeric",
+                    "value": "9408"
+                },
+                "fenceLhs": false,
+                "rhs": {
+                    "type": "Mul",
+                    "lhs": {
+                        "type": "Sub",
+                        "lhs": {
+                            "type": "Numeric",
+                            "value": "2547.778"
+                        },
+                        "fenceLhs": false,
+                        "rhs": {
+                            "type": "Add",
+                            "lhs": {
+                                "type": "Numeric",
+                                "value": "5473.933"
+                            },
+                            "fenceLhs": false,
+                            "rhs": {
+                                "type": "Numeric",
+                                "value": "468"
+                            },
+                            "fenceRhs": false
+                        },
+                        "fenceRhs": true
+                    },
+                    "fenceLhs": true,
+                    "rhs": {
+                        "type": "Numeric",
+                        "value": "550.773"
+                    },
+                    "fenceRhs": false
+                },
+                "fenceRhs": true
+            },
+            "fenceOperand": true
+        },
+        "fenceRhs": false
+    },
+    "fenceOperand": true
+}

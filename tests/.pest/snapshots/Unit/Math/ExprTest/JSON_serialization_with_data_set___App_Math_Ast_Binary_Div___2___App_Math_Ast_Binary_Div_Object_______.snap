@@ -1,0 +1,57 @@
+{
+    "type": "Div",
+    "lhs": {
+        "type": "Numeric",
+        "value": "2554.769"
+    },
+    "fenceLhs": false,
+    "rhs": {
+        "type": "Neg",
+        "operand": {
+            "type": "Mul",
+            "lhs": {
+                "type": "Add",
+                "lhs": {
+                    "type": "Numeric",
+                    "value": "9447.652"
+                },
+                "fenceLhs": false,
+                "rhs": {
+                    "type": "Div",
+                    "lhs": {
+                        "type": "Numeric",
+                        "value": "2655"
+                    },
+                    "fenceLhs": false,
+                    "rhs": {
+                        "type": "Sub",
+                        "lhs": {
+                            "type": "Numeric",
+                            "value": "8620.568"
+                        },
+                        "fenceLhs": false,
+                        "rhs": {
+                            "type": "Neg",
+                            "operand": {
+                                "type": "Numeric",
+                                "value": "6162"
+                            },
+                            "fenceOperand": false
+                        },
+                        "fenceRhs": false
+                    },
+                    "fenceRhs": true
+                },
+                "fenceRhs": false
+            },
+            "fenceLhs": true,
+            "rhs": {
+                "type": "Numeric",
+                "value": "5328.376"
+            },
+            "fenceRhs": false
+        },
+        "fenceOperand": true
+    },
+    "fenceRhs": false
+}

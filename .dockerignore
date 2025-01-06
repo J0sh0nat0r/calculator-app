@@ -1,0 +1,5 @@
+/.direnv
+/bootstrap/cache/*.php
+/node_modules
+/vendor
+/.env

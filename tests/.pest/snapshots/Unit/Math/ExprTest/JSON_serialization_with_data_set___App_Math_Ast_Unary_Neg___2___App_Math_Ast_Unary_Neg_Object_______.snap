@@ -1,0 +1,42 @@
+{
+    "type": "Neg",
+    "operand": {
+        "type": "Sqrt",
+        "operand": {
+            "type": "Sqrt",
+            "operand": {
+                "type": "Add",
+                "lhs": {
+                    "type": "Numeric",
+                    "value": "3306.863"
+                },
+                "fenceLhs": false,
+                "rhs": {
+                    "type": "Sqrt",
+                    "operand": {
+                        "type": "Sqrt",
+                        "operand": {
+                            "type": "Sub",
+                            "lhs": {
+                                "type": "Numeric",
+                                "value": "9126.474"
+                            },
+                            "fenceLhs": false,
+                            "rhs": {
+                                "type": "Numeric",
+                                "value": "9590.882"
+                            },
+                            "fenceRhs": false
+                        },
+                        "fenceOperand": true
+                    },
+                    "fenceOperand": true
+                },
+                "fenceRhs": false
+            },
+            "fenceOperand": true
+        },
+        "fenceOperand": true
+    },
+    "fenceOperand": false
+}

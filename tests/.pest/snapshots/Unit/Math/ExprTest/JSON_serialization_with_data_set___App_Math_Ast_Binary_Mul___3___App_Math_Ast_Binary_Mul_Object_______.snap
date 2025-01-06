@@ -1,0 +1,66 @@
+{
+    "type": "Mul",
+    "lhs": {
+        "type": "Numeric",
+        "value": "5375.396"
+    },
+    "fenceLhs": false,
+    "rhs": {
+        "type": "Mul",
+        "lhs": {
+            "type": "Mul",
+            "lhs": {
+                "type": "Numeric",
+                "value": "8537.483"
+            },
+            "fenceLhs": false,
+            "rhs": {
+                "type": "Sqrt",
+                "operand": {
+                    "type": "Neg",
+                    "operand": {
+                        "type": "Add",
+                        "lhs": {
+                            "type": "Sub",
+                            "lhs": {
+                                "type": "Numeric",
+                                "value": "1125.118"
+                            },
+                            "fenceLhs": false,
+                            "rhs": {
+                                "type": "Pow",
+                                "lhs": {
+                                    "type": "Numeric",
+                                    "value": "7056.294"
+                                },
+                                "fenceLhs": false,
+                                "rhs": {
+                                    "type": "Numeric",
+                                    "value": "4346"
+                                },
+                                "fenceRhs": false
+                            },
+                            "fenceRhs": false
+                        },
+                        "fenceLhs": false,
+                        "rhs": {
+                            "type": "Numeric",
+                            "value": "4625.156"
+                        },
+                        "fenceRhs": false
+                    },
+                    "fenceOperand": true
+                },
+                "fenceOperand": true
+            },
+            "fenceRhs": false
+        },
+        "fenceLhs": false,
+        "rhs": {
+            "type": "Numeric",
+            "value": "857.78"
+        },
+        "fenceRhs": false
+    },
+    "fenceRhs": true
+}

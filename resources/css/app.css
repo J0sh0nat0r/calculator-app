@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Noto Sans Math';
+    src: url('../fonts/NotoSansMath-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+math {
+    @apply font-math;
+}
