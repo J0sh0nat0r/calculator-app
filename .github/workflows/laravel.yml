@@ -16,6 +16,9 @@ jobs:
       with:
         php-version: '8.3'
         coverage: pcov
+    - uses: actions/setup-node@v4.1.0
+      with:
+        node-version: 22.x
     - uses: actions/checkout@v4
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
@@ -29,6 +32,10 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
+    - name: Install Node dependencies
+      run: npm ci
+    - name: Build assets
+      run: npm run build
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       env:
         DB_CONNECTION: sqlite
